@@ -21,3 +21,5 @@ This repository contains 7 real-world AI agent projects, from simple hello-world
 python3 -m venv .venv
 
 source .venv/bin/activate && python3 tool_calling.py
+
+uv run python RAG/ingestion.py
