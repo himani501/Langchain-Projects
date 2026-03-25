@@ -23,3 +23,5 @@ python3 -m venv .venv
 source .venv/bin/activate && python3 tool_calling.py
 
 uv run python RAG/ingestion.py
+
+streamlit run main.py
